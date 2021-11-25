@@ -1,0 +1,50 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://asset/MochiyPopOne-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://setting.cs" type="Script" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 32
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 33
+font_data = ExtResource( 1 )
+
+[node name="Control" type="Control"]
+margin_right = 432.0
+margin_bottom = 168.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 212.0
+margin_top = 70.0
+margin_right = 831.0
+margin_bottom = 406.0
+custom_fonts/font = SubResource( 1 )
+text = "Contrôle de base :
+Bouger  avec les flèches directionnel
+Bar espace pour sauter
+La touche j pour attaquer
+La touche d pour debug
+"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 429.009
+margin_top = 355.054
+margin_right = 687.009
+margin_bottom = 442.054
+custom_fonts/font = SubResource( 2 )
+text = "Retour"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/TSVG 618_ Kirby Super Star - Gourmet Race.mp3-16856a1d32eed2b76e69e6fb284c86b2.mp3str"
+
+[deps]
+
+source_file="res://asset/TSVG 618_ Kirby Super Star - Gourmet Race.mp3"
+dest_files=[ "res://.import/TSVG 618_ Kirby Super Star - Gourmet Race.mp3-16856a1d32eed2b76e69e6fb284c86b2.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
